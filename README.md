@@ -1,6 +1,6 @@
 # Sistema de matriculación vehicular
 
-## Escuela Poitécnica Nacinal
+## Escuela Poitécnica Nacional
 
 ## Programación I
 
