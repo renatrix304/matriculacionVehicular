@@ -26,3 +26,8 @@ En nuestro proyecto se buscó crear un sistema  estructurado en lenuaje C que si
 - Listar vehículos matriculados.
 - Guardar y recuperar información usando archivos.
 - Validar entradas y manejar errores comunes (simulación de excepciones).
+
+## Login.c
+
+Esta parte de nuestro código nos sirve para registrarnos e iniciar sesión para poder acceder al Sistema de Matriculación Vehicular.
+
