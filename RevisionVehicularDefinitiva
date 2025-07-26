@@ -121,7 +121,7 @@ void validarMatricula(Vehiculo *v) {
 				anioNumerico = atoi(tempAnio);
 				if (anioNumerico < 1940 || anioNumerico > 2025) {
 					valido = 0;
-					printf("Anio no valido, el límite está entre 1940 y 2025\n");
+					printf("Anio no valido, el lÃ­mite estÃ¡ entre 1940 y 2025\n");
 				}
 			}
 		}
@@ -183,7 +183,7 @@ void validarMatricula(Vehiculo *v) {
 	printf("Vehiculo registrado correctamente.\n");
 	
 	char opcionComprobante[10];
-	printf("¿Desea imprimir el comprobante de registro? (si/no): ");
+	printf("Â¿Desea imprimir el comprobante de registro? (si/no): ");
 	fgets(opcionComprobante, sizeof(opcionComprobante), stdin);
 	opcionComprobante[strcspn(opcionComprobante, "\n")] = '\0';
 	
