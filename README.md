@@ -38,3 +38,4 @@ Este archivo contiene la lógica de un sencillo sistema de login en C, el cual p
 - Validar contraseñas.
 
 - Usar un menú interactivo.
+- 
