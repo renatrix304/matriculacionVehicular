@@ -27,6 +27,8 @@ En nuestro proyecto se buscó crear un sistema  estructurado en lenuaje C que si
 - Guardar y recuperar información usando archivos.
 - Validar entradas y manejar errores comunes (simulación de excepciones).
 
+- <!-- Failed to upload "Grabación 2025-07-27 102024 (1).mp4" -->
+
 ## Login.c
 
 Este archivo contiene la lógica de un sencillo sistema de login en C, el cual permite:
