@@ -322,3 +322,43 @@ Si el valor de revision_obligatoria es 0, se añade una multa de $50.00.
 4. Devuelve el total:
 
 La función retorna el valor total de matrícula a pagar
+
+## RevisionVeicular.h
+
+1. Definición de constantes
+
+Definimos varias constantes
+
+#define MAX_PLACA 10
+
+#define MAX_TIPO 20
+
+#define MAX_AVALUO 20
+
+#define MAX_ANIO 5
+
+#define MAX_CEDULA 11
+
+#define NUM_REVISIONES 3
+
+#define MAX_VEHICULOS 100 
+
+2. Definición del struct 
+
+Este struct define un vehículo registrado con los siguientes campos:
+
+placa[8]: Placa del vehículo (hasta 7 caracteres + \0).
+
+cedula[11]: Cédula del propietario (10 números + \0).
+
+anio[5]: Año de fabricación (hasta 4 cifras).
+
+tipo[20]: Tipo de vehículo (por ejemplo: "liviano", "pesado", etc.).
+
+avaluo[10]: Valor del vehículo en texto.
+
+revisiones[3]: Arreglo que guarda resultados de 3 revisiones.
+
+3. Funciones
+
+Plasmamos nuestras funciones antes creadas.
