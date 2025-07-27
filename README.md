@@ -399,7 +399,7 @@ Esto permite que el sistema se reinicie cada vez que un usuario cierra sesión
 
 Es la función más importante. Controla todas las acciones disponibles
 
-📋 Opciones del menú:
+## 📋 Opciones del menú:
 
 1. Registrar vehiculo
 
