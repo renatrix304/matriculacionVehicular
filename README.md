@@ -363,4 +363,84 @@ revisiones[3]: Arreglo que guarda resultados de 3 revisiones.
 
 Plasmamos nuestras funciones antes creadas.
 
-##Main
+## Main 
+
+1.  Inclusión de bibliotecas
+
+Se incluyen:
+
+Bibliotecas estándar (stdio.h, stdlib.h, string.h, ctype.h) para entrada/salida, manejo de cadenas y caracteres.
+
+EL archivo .h con las estructuras y funciones necesarias para el sistema.
+
+2. Variables globales
+
+vehiculos: Arreglo que almacena todos los vehículos registrados.
+
+cantidadVehiculos: Cuenta cuántos vehículos han sido ingresados.
+
+3. Funciones auxiliares
+
+void menuPrincipal();
+
+void mostrarVehiculo(const Vehiculo v);
+
+Declaraciones de funciones que serán usadas dentro de main() o en el flujo general del programa.
+
+4. Función main()
+
+Ejecuta un bucle que muestra la pantalla de login (pantallaLogin()).
+
+Si el login es exitoso, entra al menuPrincipal().
+
+Esto permite que el sistema se reinicie cada vez que un usuario cierra sesión
+
+6. Función menuPrincipal()
+
+Es la función más importante. Controla todas las acciones disponibles
+
+📋 Opciones del menú:
+
+1. Registrar vehiculo
+
+Llama a validarMatricula(), que llena los datos del vehículo.
+
+Luego incrementa cantidadVehiculos.
+
+2. Registrar revisiones tecnicas
+
+Pide la placa del vehículo.
+
+Lo busca usando buscarVehiculoPorPlaca().
+
+Si lo encuentra, llama a registrarRevisiones() con el arreglo de revisiones del vehículo.
+
+3. Calcular valor matricula
+
+Busca el vehículo por placa.
+
+Si existe, llama a calcular_matricula_vehicular() con parámetros simulados (ejemplo: cilindraje 1600, Quito, $40 en multas, etc.).
+
+Muestra el valor resultante.
+
+4. Mostrar estado de revisiones
+
+Igual que antes: pide la placa, busca el vehículo y, si lo encuentra, llama a mostrarEstadoRevisiones().
+
+5. Buscar vehiculo por placa
+
+Busca por placa y muestra todos sus datos usando mostrarVehiculo().
+
+6. Listar vehiculos matriculados
+
+Llama a listarVehiculos(), que recorre el arreglo e imprime todos.
+
+7. Generar comprobante de registro
+
+Busca el vehículo y llama a generarComprobanteTXT(), que crea un archivo .txt con los datos del vehículo.
+
+8. Cerrar sesion
+Rompe el menú con return;, pero no termina el programa porque main() vuelve a mostrar la pantalla de login.
+
+9. Salir completamente
+Termina el programa usando exit(0).
