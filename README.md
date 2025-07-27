@@ -96,7 +96,7 @@ Retorna 1 si es válida, 0 si no.
 
 - La contraseña debe tener exactamente 6 caracteres alfanuméricos.
 
-## RevisionVehicularDefinitiva
+## RevisionVehicularDefinitiva.c
 
 Este archivo contiene las funciones utilizadas en nuestro programa.
 
