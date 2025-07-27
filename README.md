@@ -29,5 +29,12 @@ En nuestro proyecto se buscó crear un sistema  estructurado en lenuaje C que si
 
 ## Login.c
 
-Esta parte de nuestro código nos sirve para registrarnos e iniciar sesión para poder acceder al Sistema de Matriculación Vehicular.
+Este archivo contiene la lógica de un sencillo sistema de login en C, el cual permite:
 
+- Registrar usuarios con validación de datos.
+
+- Iniciar sesión verificando credenciales desde un archivo.
+
+- Validar contraseñas.
+
+- Usar un menú interactivo.
