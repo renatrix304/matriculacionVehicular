@@ -38,4 +38,61 @@ Este archivo contiene la lógica de un sencillo sistema de login en C, el cual p
 - Validar contraseñas.
 
 - Usar un menú interactivo.
-- 
+
+## 📌 Explicación de funciones 
+
+ `int pantallaLogin()`
+
+Muestra un menú principal con las opciones:
+
+-Registrarse
+
+-Iniciar sesión
+
+-Salir
+
+Permite al usuario interactuar hasta que se cierre el programa o se inicie sesión correctamente.
+
+Retorna 1 si el inicio de sesión es exitoso; si no, continúa en bucle.
+
+`int registrarUsuario()`
+
+Permite registrar un nuevo usuario.
+
+Solicita:
+
+Un nombre de usuario (solo letras).
+
+Una contraseña de exactamente 6 caracteres alfanuméricos.
+
+Valida ambos datos antes de guardarlos.
+
+Guarda el usuario y la contraseña en usuarios.txt en formato usuario,contrasena.
+
+Retorna 1 si el registro fue exitoso; de lo contrario, 0.
+
+`int iniciarSesion()`
+
+Solicita al usuario y la contraseña.
+
+Abre el archivo usuarios.txt y busca una coincidencia exacta con los datos ingresados.
+
+Si encuentra un match, retorna 1, indicando que el inicio de sesión fue exitoso.
+
+Si no encuentra coincidencias, retorna 0.
+
+`int validarContrasena(const char *contrasena)`
+
+Valida que la contraseña:
+
+Tenga exactamente 6 caracteres.
+
+Esté compuesta únicamente por caracteres alfanuméricos (letras y números).
+
+Retorna 1 si es válida, 0 si no.
+
+## 📎 Requisitos para los usuarios
+- El nombre de usuario solo puede contener letras (sin números, espacios ni caracteres especiales).
+
+- La contraseña debe tener exactamente 6 caracteres alfanuméricos.
+
