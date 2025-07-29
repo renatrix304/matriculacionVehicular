@@ -99,7 +99,7 @@ Retorna 1 si es válida, 0 si no.
 
 - La contraseña debe tener exactamente 6 caracteres alfanuméricos.
 
-## RevisionVehicularDefinitiva.c
+## RevisionVehicular.c
 
 Este archivo contiene las funciones utilizadas en nuestro programa.
 
@@ -366,7 +366,7 @@ revisiones[3]: Arreglo que guarda resultados de 3 revisiones.
 
 Plasmamos nuestras funciones antes creadas.
 
-## Main 
+## Main.c 
 
 1.  Inclusión de bibliotecas
 
